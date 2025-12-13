@@ -3,4 +3,4 @@ app = FastAPI()
 
 @app.get("/")
 def read_root():
-    return {"Hello test 2": "From FastAPI on Kubernetes"}
+    return {"Hello test 3": "From FastAPI on Kubernetes"}
