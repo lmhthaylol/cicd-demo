@@ -18,7 +18,7 @@ spec:
       containers:
       - name: fastapi-container
         #image: [LOCATION]-docker.pkg.dev/[PROJECT_ID]/[REPOSITORY_NAME]/fastapi-app:[IMAGE_TAG]
-        image: us-central1-docker.pkg.dev/democicd-480608/fastapi-repo/test:lastest
+        image: us-central1-docker.pkg.dev/democicd-480608/fastapi-repo/test:latest
         ports:
         - containerPort: 8000 
         resources:
